@@ -5,10 +5,14 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
+ <h1><%= "Team Name: #{@team_hash.fetch("name")}" %></h1>
+ <h2><%= "Coach: #{@team_hash.fetch("coach")}" %></h2>
+ <h2><%= "Point Guard: #{@team_hash.fetch("pg")}" %></h2>
+ <h2><%= "Shooting Guard: #{@team_hash.fetch("sg")}" %></h2>
+ <h2><%= "Power Forward: #{@team_hash.fetch("pf")}" %></h2>
+ <h2><%= "Small Forward: #{@team_hash.fetch("sf")}" %></h2>
+ <h2><%= "Center: #{@team_hash.fetch("c")}" %></h2>
 
 
  </body>
 </html>
-
-
